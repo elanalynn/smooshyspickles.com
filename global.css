@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(97, 3, 50);
+  font-family: "Nabla", system-ui;
+  text-align: center;
+}
+
+header {
+  font-size: 3rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: lime;
+}
+
+aside {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(2, 41, 41);
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  aside {
+    max-width: 500px;
+  }
+}
+
+aside img {
+  width: 300px;
+  min-width: 200px;
+  margin: auto;
+}
+
+article {
+  width: auto;
+  max-width: 1000px;
+  background-color: rgb(6, 0, 91);
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 20px;
+}
+
+footer {
+  font-size: 3rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
